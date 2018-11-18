@@ -8,8 +8,18 @@
     <button id="show-favourites">Show favourites</button>
     <button id="sort-images">Sort images</button>
     <div id="images"></div>
-    <input type="file" id="file-input">
+    <input type="file" id="file-input" multiple>
 
     <script src="index.js"></script>
 </body>
+<style>
+  img {
+    width: 20%;
+    margin: 20px;
+  }
+  .image--favourite {
+    box-sizing: border-box;
+    border: 10px solid red;
+  }
+</style>
 </html>
